@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookskey</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div class="navbar">
+        <h1>Books Key</h1>
+    </div>
+    
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Rich Dad Poor Dad is about Robert Kiyosaki and his two dads - his real father (poor Dad) and the father of  his best frined (Rich dad) and the ways in which both men shaped his thoughts about money and inverting.</p>
+            <button onclick="deletebook(event )">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overley"></div>
+    <div class="popup-box">
+        <h2>Add book</h2>
+        <form >
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+         </form>
+    </div>
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
